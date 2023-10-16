@@ -1,7 +1,3 @@
-ALTER DATABASE "Gr8_Crowdfunding_DB"
-    SET datestyle = 'SQL, MDY'; --- Altering database date-style format to "MDY" from "YMD"
-SET datestyle = 'SQL, MDY'; -- Setting date-style to SQL format of MM/DD/YYYY
-
 --- Deleting existing tables, if they exists in Database
 DROP TABLE IF EXISTS Campaign, Contacts, Category,Subcategory;
 
