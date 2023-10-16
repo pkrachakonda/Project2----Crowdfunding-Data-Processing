@@ -1,8 +1,5 @@
-ALTER DATABASE "Gr8_Crowdfunding_DB"
-    SET datestyle = 'SQL, MDY'; --- Altering database date-style format to "MDY" from "YMD"
-SET datestyle = 'SQL, MDY'; -- Setting date-style to SQL format of MM/DD/YYYY
-
 --- Deleting existing tables, if they exists in Database
+
 DROP TABLE IF EXISTS Campaign, Contacts, Category,Subcategory;
 
 ---                                   Creating tables
@@ -38,7 +35,7 @@ CREATE TABLE Contacts (
 	PRIMARY KEY (Contact_id)
 );
 
--- Importing data to Campaign Table from "Resources\contacts.csv" using "Import\Export Data" feature of "Postgres - Schemas\Tables"
+-- Importing data to Contact Table from "Resources\contacts.csv" using "Import\Export Data" feature of "Postgres - Schemas\Tables"
 
 SELECT * FROM Contacts; --- To verify whether table is imported properly
 -------------------------------------------------------------------------------------------------------------------------
@@ -49,7 +46,7 @@ CREATE TABLE Category (
 	PRIMARY KEY(Category_id)
 );
 
--- Importing data to Campaign Table from "Resources\category.csv" using "Import\Export Data" feature of "Postgres - Schemas\Tables"
+-- Importing data to Category Table from "Resources\category.csv" using "Import\Export Data" feature of "Postgres - Schemas\Tables"
 
 SELECT * FROM Category; --- To verify whether table is imported properly
 -------------------------------------------------------------------------------------------------------------------------
@@ -60,7 +57,7 @@ CREATE TABLE Subcategory (
     PRIMARY KEY (Subcategory_id)
 );
 
--- Importing data to Campaign Table from "Resources\subcategory.csv" using "Import\Export Data" feature of "Postgres - Schemas\Tables"
+-- Importing data to Subcategory Table from "Resources\subcategory.csv" using "Import\Export Data" feature of "Postgres - Schemas\Tables"
 
 SELECT * FROM subcategory; --- To verify whether table is imported properly
 -------------------------------------------------------------------------------------------------------------------------
