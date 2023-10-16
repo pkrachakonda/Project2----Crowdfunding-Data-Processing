@@ -67,4 +67,3 @@ ALTER TABLE Campaign ADD FOREIGN KEY (Contact_id) REFERENCES Contacts(Contact_id
 ALTER TABLE Campaign ADD FOREIGN KEY (Category_id) REFERENCES Category(Category_id) ON DELETE CASCADE; --- Altering Table in order to assign a "FOREIGN" Key
 
 ALTER TABLE Campaign ADD FOREIGN KEY (Subcategory_id) REFERENCES Subcategory(Subcategory_id) ON DELETE CASCADE; --- Altering Table in order to assign a "FOREIGN" Key
-
