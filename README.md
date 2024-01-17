@@ -149,6 +149,6 @@ In Lines 65, 67, 69, ***"Campaign"*** table/object was altered using *Alter Tabl
 
 ## Contributing
 
-Praveen Kumar Rachakonda, https://github.com/pkrachakonda , 
-Aaron Bilbow, https://github.com/aaronbilbow , 
-John Poretta, https://github.com/Johnporretta
+ - [Praveen Rachakonda](https://github.com/pkrachakonda) 
+ - [Aaron Bilbow](https://github.com/aaronbilbow)
+ - [John Poretta](https://github.com/Johnporretta)
