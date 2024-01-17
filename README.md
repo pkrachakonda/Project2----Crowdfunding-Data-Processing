@@ -1,4 +1,4 @@
-# Crowdfunding Data Processing Project - Aaron Bilbow, John Porretta and Praveen Rachakonda
+# Crowdfunding Data Processing Project - Praveen Rachakonda, Aaron Bilbow and John Porretta
 
 ## Table of Contents
 
